@@ -1,6 +1,6 @@
-# y
+# vue-element-admin
 
-> vue admin demo
+> 基于vue-cli和elementUI框架的后台管理
 
 ## Build Setup
 

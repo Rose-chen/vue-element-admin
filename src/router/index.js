@@ -16,6 +16,11 @@ export default new Router({
       component: Main,
       children: [
         {
+          path: '/',
+          name: 'Default',
+          component: Default
+        },
+        {
           path: 'default',
           name: 'Default',
           component: Default

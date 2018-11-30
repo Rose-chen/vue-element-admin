@@ -9,6 +9,10 @@
           <nav-left></nav-left>
         </el-aside>
         <el-main>
+          <el-breadcrumb separator-class="el-icon-arrow-right">
+            <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
+            <el-breadcrumb-item>Default</el-breadcrumb-item>
+          </el-breadcrumb>
           <router-view></router-view>
         </el-main>
       </el-container>
@@ -41,4 +45,7 @@ export default {
       .el-aside
         width: 220px!important
         background: rgb(84, 92, 100)
+      .el-main
+        .el-breadcrumb
+          margin-bottom: 20px
 </style>

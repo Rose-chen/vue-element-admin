@@ -59,6 +59,7 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="stylus" scoped>
+  .el-menu
+    border-right: none!important
 </style>
